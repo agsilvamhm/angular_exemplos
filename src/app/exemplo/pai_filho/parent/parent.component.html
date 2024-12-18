@@ -1,0 +1,10 @@
+<div>
+  <h2>Componente Pai</h2>
+  <label for="phone">Número do telefone:</label>
+  <input id="phone" [(ngModel)]="phoneNumber" placeholder="Digite o número de telefone:"/>
+
+  <app-child
+    [phoneNumber]="phoneNumber"
+    (typeSelected)="onTypeSelected($event)">
+  </app-child>
+</div>

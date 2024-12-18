@@ -1,0 +1,12 @@
+<div>
+  <h3>Componente filho</h3>
+  <p>Número recebido: {{phoneNumber}}</p>
+
+  <label for="type">Selecione o tipo:</label>
+  <select id="type" (change)="onTypeChange($event)">
+    <option value="" disabled seçected>Selecione o tipo</option>>
+    <option value="Celular">Celular</option>
+    <option value="Residencial">Residencial</option>
+  </select>
+</div>
+
