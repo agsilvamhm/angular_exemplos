@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { ParentComponent } from './exemplo/pai_filho/parent/parent.component';
+import { MatrixMenuThreeComponent } from './exemplo/matrix-menu-three/matrix-menu-three.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ParentComponent],
+  imports: [RouterOutlet, MatrixMenuThreeComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
